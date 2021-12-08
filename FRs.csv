@@ -1,0 +1,69 @@
+FRs,Classes
+Admin clients can login through their pre-assigned username and password.,Event-Driven
+Extra admin clients can either login using their manually registered credentials or social accounts (Gmail).,Event-Driven
+User will be kept logged in if they opt to stay singed in at the time of login in.,State-Driven
+Clients will be provided associated access to their accounts after logging in.,Event-Driven
+An error will be generated prompting client to correct credentials in case of invalid input while logging in.,State-Driven
+Extra admin clients can get themselves registered against their email addresses.,Event-Driven
+"Extra admin clients have to provide following information in order to register: Email, Password, Full Name, Profile Picture (Optional, About Me (Optional), Address (Optional).",Ubiquitous
+Client?s account will be created after successful submission of information.,Event-Driven
+An error will be generated prompting client to correct information in case of invalid input while signing up.,State-Driven
+Client?s email will be verified after signing up.,Event-Driven
+Clients will be able to change password from their profile.,Ubiquitous
+Clients will be asked for old password for verification.,Event-Driven
+Clients will be asked to provide new password after confirming their old password.,Event-Driven
+Client?s password will be updated after successful submission of new password.,Event-Driven
+"In case of invalid new password, an error will be generated to the user.",Unwanted Behaviour
+A notification will be sent to user via email and SMS after changing password.,Event-Driven
+Clients can request a link to reset their password if they have forgotten their password.,Event-Driven
+Clients will receive a link in their mailboxes.,Event-Driven
+The received link will be used to set a new password.,Event-Driven
+User will be logged out from all other instances after recovering password.,Event-Driven
+Clients will be able to view their profile information they have Uploaded.,Event-Driven
+Clients will be able to modify their profile to personalize it.,Ubiquitous
+Information updated by the user will be validated before being updated.,Ubiquitous
+Profile picture updated by the user will be validated before being updated.,Ubiquitous
+Message errors will be displayed in case of invalid data submission.,Unwanted Behaviour
+Consumer and vendor clients will be able to delete their profiles.,Event-Driven
+Consumer and vendor clients will be asked for password confirmation before deleting their profile.,Event-Driven
+Consumer and vendor client?s profiles will be kept deactivated for 30 days before deletion.,Event-Driven
+Consumer and vendor clients will be able to recover deleted profiles with 30 days of deactivation.,Event-Driven
+Consumer and vendor clients will be able to deactivate their profiles.,Ubiquitous
+Consumer and vendor clients will be asked for password confirmation before deactivating their profile.,Event-Driven
+An error will be generated in case of wrong password.,Unwanted Behaviour
+"In case of correct password, client?s profile will be deactivated.",Event-Driven
+Vendor clients will be able to post an ad after logging in with a vendor account.,Event-Driven
+The web application will allow vendor clients to publish paid or unpaid ads.,Ubiquitous
+Registered and verified consumer clients will be able to give feedback for the ads.,Ubiquitous
+Registered and verified clients will be able to rate ads. Rating and feedback on ads.,Ubiquitous
+Vendor clients will be able to view their published ads in their profiles my ads section.,Event-Driven
+Vendor clients will be able to update their published ads from their profiles my ads section.,Event-Driven
+Logged In consumer clients will be able to send messages to vendor clients to acquire further information about the ads.,Event-Driven
+Message would be sent via email.,Ubiquitous
+Consumer clients will be able to view the saved ads against their profile.,Ubiquitous
+Vendor clients will be able to delete their published ads from their profile.,Event-Driven
+"Users will be able to perform basic search for ads on the basis of categories (Hotel Hall, Banquet Hall, Farmhouse, and Marquee) and venue name.",Ubiquitous
+"Users will be able to perform advanced searches for ads on the basis of categories (Hotel Hall, Banquet Hall, Farmhouse, and Marquee), cities and price range.",Ubiquitous
+Clients will be provided with search suggestions while filling in field.,Event-Driven
+"Clients will be provided with quick search links for cities, categories and price ranges.",Ubiquitous
+If client?s search criteria don?t produce any search result and error message is displayed to the user.,Unwanted Behaviour
+Popular ads of consumer client?s area will be displayed on the landing page.,Ubiquitous
+Featured ads will be displayed to the consumer client on the lading page.,Ubiquitous
+The system should provide registration page for the user.,Ubiquitous
+User must be verified using login module.,Event-Driven
+User can search for different books he/she wants.,Ubiquitous
+User can view complete details of the book.,Ubiquitous
+User can rent books.,Ubiquitous
+User can sell books.,Ubiquitous
+User can add books.,Ubiquitous
+User can delete books.,Ubiquitous
+The application shall enable the driver to update his/her picture,Event-Driven
+The application shall enable the driver to update his /her City,Event-Driven
+The application shall enable the driver to update his/her Contact number,Event-Driven
+The driver can send an invitation to a friend using his/her valid link,Event-Driven
+The driver will get points if someone signup using his /her valid link,Event-Driven
+If not then the system shall display a message ?invalid credentials?.,Unwanted Behaviour
+Through blockchain dashboard we will be able to see busy and online users and all tasks,State-Driven
+Email report to admin pages confirmation a task,State-Driven
+User should have an internet connection for their cellular device.,State-Driven
+User must give access to images of his cellular device in order to create an Ad.,State-Driven
